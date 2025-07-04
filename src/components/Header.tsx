@@ -14,7 +14,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
         <h1 className="text-2xl font-bold text-red-400">Where in the world?</h1>
         <button onClick={toggleDarkMode} className="flex items-center space-x-2 hover:opacity-75">
           {darkMode ? <Sun size={30} /> : <Moon size={30} />}
-          <span>Dark Mode</span>
+          <span>Dark Mode </span>
         </button>
       </div>
     </header>

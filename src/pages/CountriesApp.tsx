@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, ChevronDown,Sun, Moon, ArrowLeft } from 'lucide-react';
 import countryData from "../assets/data.json";
-import { type Country } from '../types/Types';
+import { type Country } from '../utils/Types';
 
 
 const CountriesApp: React.FC = () => {
